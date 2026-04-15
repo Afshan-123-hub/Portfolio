@@ -55,8 +55,8 @@ It showcases my skills, education, and projects as a Frontend Developer.
 ---
 
 ## 📞 Contact
-- Email: your_email@example.com  
-- GitHub: https://github.com/yourusername  
+- Email: afshansiraj4@gmail.com  
+- GitHub: https://github.com/Afshan-123-hub  
 
 ---
 
