@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Afshan | Portfolio</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+
+nav h2 {
+    font-size: 26px;
+}
+
+nav button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.hero h1 {
+    font-size: 50px;
+}
+
+.hero span {
+    color: #ffd369;
+}
+
+/* Sections */
+section {
+    padding: 50px 20px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* Glass Card */
+.card {
+    background: rgba(255,255,255,0.12);
+    padding: 25px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+/* Skills */
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill {
+    background: #ffd369;
+    color: black;
+    padding: 8px 15px;
+    border-radius: 20px;
+}
+
+/* Projects */
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+}
+
+.project {
+    background: rgba(255,255,255,0.15);
+    padding: 20px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.project:hover {
+    transform: translateY(-10px);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+    <h2>Afshan</h2>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+    <h1>Hi, I'm <span>Afshan</span></h1>
+    <p>Frontend Developer | Web Developer | AI Enthusiast</p>
+</div>
+
+<!-- ABOUT -->
+<section>
+<div class="container">
+<div class="card">
+<h2>About Me</h2>
+<p>
+I am a dedicated BSCS student with strong passion for Frontend Development, Web Technologies, and AI-based systems.  
+I enjoy building interactive, user-friendly, and modern web applications.  
+I am continuously improving my skills in both frontend and backend development.
+</p>
+</div>
+</div>
+</section>
+
+<!-- EDUCATION -->
+<section>
+<div class="container">
+<div class="card">
+<h2>Education</h2>
+<p><b>BS Computer Science (Continue)</b></p>
+<p>CGPA: 3.48</p>
+<p>University: IST</p>
+<br>
+<p><b>Intermediate (ICS)</b> — A Grade</p>
+<p><b>Matriculation</b> — A Grade</p>
+</div>
+</div>
+</section>
+
+<!-- SKILLS -->
+<section>
+<div class="container">
+<div class="card">
+<h2>Skills</h2>
+<div class="skills">
+<div class="skill">HTML</div>
+<div class="skill">CSS</div>
+<div class="skill">Java Web Development</div>
+<div class="skill">PHP</div>
+<div class="skill">SQL</div>
+<div class="skill">NoSQL</div>
+<div class="skill">C++</div>
+<div class="skill">C#</div>
+<div class="skill">Python</div>
+<div class="skill">Git</div>
+<div class="skill">AI Basics</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- PROJECTS -->
+<section>
+<div class="container">
+<h2>Projects</h2>
+
+<div class="projects">
+
+<div class="project">
+<h3>Restaurant Management System</h3>
+<p>
+A complete system with Admin, Waiter, Kitchen, Billing modules.  
+Features: Order management, menu control, billing system, and database integration.
+</p>
+</div>
+
+<div class="project">
+<h3>Advanced Restaurant Management System</h3>
+<p>
+Enhanced version with real-time order tracking, inventory control, and role-based access system.
+</p>
+</div>
+
+<div class="project">
+<h3>Smart Restaurant System</h3>
+<p>
+AI-based idea system for restaurant automation and smart order prediction (concept project).
+</p>
+</div>
+
+<div class="project">
+<h3>AI Sentiment Analysis App</h3>
+<p>
+A Python-based AI project that analyzes text reviews and detects sentiment (positive, negative, neutral).
+</p>
+</div>
+
+<div class="project">
+<h3>Student Feedback System</h3>
+<p>
+Web application for students to rate courses and provide feedback using NoSQL database.
+</p>
+</div>
+
+<div class="project">
+<h3>SmartEDUDB System</h3>
+<p>
+Advanced NoSQL-based education database management system for academic records.
+</p>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+<p>© 2026 Afshan | Frontend Developer Portfolio</p>
+</footer>
+
+</body>
+</html>
