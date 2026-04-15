@@ -7,7 +7,7 @@ It showcases my skills, education, and projects as a Frontend Developer.
 ---
 
 ## 🚀 Live Demo
-👉 https://yourusername.github.io/portfolio-afshan/
+👉 https://Afshan-123-hub.github.io/portfolio-afshan/
 
 ---
 
